@@ -186,19 +186,19 @@ public class TrabalhoPratico {
         System.out.println("}");
     }
 
-    private static int sum(int[] values) {
+    static int sum(int[] values) {
         int result = 0;
         for (int value : values) result += value;
         return result;
     }
 
-    private static int max(int[] values) {
+    static int max(int[] values) {
         int result = values[0];
         for (int value : values) if (value > result) result = value;
         return result;
     }
 
-    private static int min(int[] values) {
+    static int min(int[] values) {
         int result = values[0];
         for (int value : values) if (value < result) result = value;
         return result;

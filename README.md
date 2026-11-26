@@ -288,17 +288,17 @@ Os limites são:
 
 | Linha | Código | Explicação |
 |---:|---|---|
-| 189 | `private static int sum(int[] values) {` | Declara um método privado que recebe um array e devolve um inteiro. |
+| 189 | `static int sum(int[] values) {` | Declara um método estático que recebe um array e devolve um inteiro. |
 | 190 | `int result = 0;` | Inicializa o total em zero. |
 | 191 | `for (int value : values) result += value;` | Percorre todos os valores e adiciona-os a `result`. |
 | 192 | `return result;` | Devolve o total calculado. |
 | 193 | `}` | Fecha o método `sum`. |
-| 195 | `private static int max(int[] values) {` | Declara um método privado que encontra o maior valor. |
+| 195 | `static int max(int[] values) {` | Declara um método estático que encontra o maior valor. |
 | 196 | `int result = values[0];` | Usa o primeiro elemento como valor inicial. |
 | 197 | `for (int value : values) if (value > result) result = value;` | Substitui `result` sempre que encontra um valor maior. |
 | 198 | `return result;` | Devolve o maior valor. |
 | 199 | `}` | Fecha o método `max`. |
-| 201 | `private static int min(int[] values) {` | Declara um método privado que encontra o menor valor. |
+| 201 | `static int min(int[] values) {` | Declara um método estático que encontra o menor valor. |
 | 202 | `int result = values[0];` | Usa o primeiro elemento como valor inicial. |
 | 203 | `for (int value : values) if (value < result) result = value;` | Substitui `result` sempre que encontra um valor menor. |
 | 204 | `return result;` | Devolve o menor valor. |
