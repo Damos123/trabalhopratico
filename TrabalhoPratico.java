@@ -6,7 +6,7 @@ public class TrabalhoPratico {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
-
+// número de aluno: 1220019
         String[] people = input.nextLine().trim().split("\\s*,\\s*");
         String[] networks = input.nextLine().trim().split("\\s*,\\s*");
         int[][] time = new int[people.length][networks.length];
